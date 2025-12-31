@@ -8,20 +8,26 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: pkg.main,
-      format: 'cjs',
+      file: pkg.module,
+      format: 'esm',
       sourcemap: true
     },
     {
-      file: pkg.module,
-      format: 'esm',
+      file: pkg.main,
+      format: 'cjs',
+      exports: 'named',
       sourcemap: true
     }
   ],
   plugins: [
     peerDepsExternal(),
-    resolve({ moduleDirectories: ['node_modules'] }),
+    resolve({
+      extensions: ['.js', '.ts', '.tsx']
+    }),
     commonjs(),
-    typescript({ tsconfig: './tsconfig.json' })
+    typescript({
+      tsconfig: './tsconfig.json',
+      declaration: false
+    })
   ]
 };
