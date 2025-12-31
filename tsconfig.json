@@ -1,21 +1,17 @@
 {
   "compilerOptions": {
-    /* Language & module */
     "target": "ES2020",
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
 
-    /* Output */
     "outDir": "dist",
     "declaration": true,
     "declarationDir": "dist/types",
     "emitDeclarationOnly": true,
 
-    /* React */
     "jsx": "react-jsx",
 
-    /* Strictness */
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -26,11 +22,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Interop */
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
 
-    /* Build safety */
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
