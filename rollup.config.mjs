@@ -20,12 +20,8 @@ export default {
   ],
   plugins: [
     peerDepsExternal(),
-    resolve({
-      moduleDirectories: ['node_modules']
-    }),
+    resolve({ moduleDirectories: ['node_modules'] }),
     commonjs(),
-    typescript({
-      tsconfig: './tsconfig.json'
-    })
+    typescript({ tsconfig: './tsconfig.json' })
   ]
 };

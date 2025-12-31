@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import type { Values } from '../types/TypeUnion';
+import type { Values } from '../types/TypeUnion.js';
 export declare const ColorTags: {
     readonly SLATE: "SLATE";
     readonly GRAY: "GRAY";

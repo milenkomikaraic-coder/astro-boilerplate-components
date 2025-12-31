@@ -1,27 +1,28 @@
-import { BlogCard } from './components/BlogCard';
-import { BlogGallery } from './components/BlogGallery';
-import { FooterCopyright } from './components/FooterCopyright';
-import { GradientText } from './components/GradientText';
-import { HeroAvatar } from './components/HeroAvatar';
-import { HeroSocial } from './components/HeroSocial';
-import { Logo } from './components/Logo';
-import { NavbarTwoColumns } from './components/NavbarTwoColumns';
-import { NavMenu } from './components/NavMenu';
-import { NavMenuItem } from './components/NavMenuItem';
-import { NewerOlderPagination } from './components/NewerOlderPagination';
-import { Newsletter } from './components/Newsletter';
-import { PaginationHeader } from './components/PaginationHeader';
-import { PostContent } from './components/PostContent';
-import { PostHeader } from './components/PostHeader';
-import { Project } from './components/Project';
-import { Section } from './components/Section';
-import { ColorTags, Tags } from './components/Tags';
+import { BlogCard } from './components/BlogCard.js';
+import { BlogGallery } from './components/BlogGallery.js';
+import { FooterCopyright } from './components/FooterCopyright.js';
+import { GradientText } from './components/GradientText.js';
+import { HeroAvatar } from './components/HeroAvatar.js';
+import { HeroSocial } from './components/HeroSocial.js';
+import { Logo } from './components/Logo.js';
+import { NavbarTwoColumns } from './components/NavbarTwoColumns.js';
+import { NavMenu } from './components/NavMenu.js';
+import { NavMenuItem } from './components/NavMenuItem.js';
+import { NewerOlderPagination } from './components/NewerOlderPagination.js';
+import { Newsletter } from './components/Newsletter.js';
+import { PaginationHeader } from './components/PaginationHeader.js';
+import { PostContent } from './components/PostContent.js';
+import { PostHeader } from './components/PostHeader.js';
+import { Project } from './components/Project.js';
+import { Section } from './components/Section.js';
+import { ColorTags, Tags } from './components/Tags.js';
+
 import type {
   FrontmatterPage,
   IFrontmatter,
   MarkdownInstance,
   Page,
-} from './types/IFrontMatter';
+} from './types/IFrontMatter.js';
 
 export {
   type FrontmatterPage,
